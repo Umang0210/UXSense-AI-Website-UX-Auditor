@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, Download, AlertCircle, CheckCircle, ArrowRight, Sparkles } from "lucide-react";
 import { LoadingState } from "@/components/LoadingState";
+// @ts-ignore
 import html2pdf from "html2pdf.js";
 
 // Backend types
